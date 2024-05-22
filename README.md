@@ -1,2 +1,2 @@
-# Setara-creative-studio
-web Setara-creative-studio
+# setara-creative-studio
+web setara-creative-studio
