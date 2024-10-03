@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
 
 * {
-  font-family: "Comfortaa";
+  /* font-family: "Comfortaa"; */
+  font-family: "Fredoka", sans-serif;
 }
 
 @tailwind base;
@@ -69,7 +71,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background;
   }
 }
 
@@ -83,5 +85,5 @@
 }
 
 .st-nav-link > ul > li > a {
-  @apply grid place-content-center text-sm font-semibold;
+  @apply grid place-content-center text-base;
 }

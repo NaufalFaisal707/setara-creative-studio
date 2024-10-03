@@ -1,23 +1,24 @@
-import logoSetara from "@/assets/logo-setara.webp";
+// assets
 import logoSetaraText from "@/assets/logo-setara-text.webp";
+import logoSetara from "@/assets/logo-setara.webp";
 
 export default function Navbar() {
   return (
-    <nav className="h-14 bg-white">
-      <div className="mx-4 h-full">
-        <div className="max-w-7xl mx-auto h-full *:h-full flex gap-x-4">
+    <nav className="sticky top-0 z-50 bg-[#B0EDED]">
+      <div className="mx-auto max-w-screen-2xl">
+        <div className="mx-4 flex min-h-16 gap-x-4">
           {/* prop logo */}
-          <div className="min-w-fit grid place-content-center">
+          <div className="grid min-w-fit place-content-center">
             <a href="#">
               <img
                 width={20}
-                className="md:hidden block"
+                className="block md:hidden"
                 src={logoSetara}
                 alt="logo setara"
               />
               <img
                 width={80}
-                className="md:block hidden"
+                className="hidden md:block"
                 src={logoSetaraText}
                 alt="logo setara"
               />
@@ -25,7 +26,7 @@ export default function Navbar() {
           </div>
 
           {/* prop link */}
-          <div className="st-nav-link md:inline hidden">
+          <div className="st-nav-link hidden md:inline">
             <ul>
               <li>
                 <a href="#our-services">Our Services</a>
