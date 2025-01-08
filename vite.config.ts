@@ -1,7 +1,7 @@
 import { vitePlugin as remix } from "@remix-run/dev";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
-import path from "path"
+import path from "path";
 
 declare module "@remix-run/node" {
   interface Future {
@@ -10,8 +10,10 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  base: "/setara-creative-studio/",
   plugins: [
     remix({
+      basename: "/setara-creative-studio/",
       ssr: false,
       future: {
         v3_fetcherPersist: true,
@@ -24,8 +26,8 @@ export default defineConfig({
     tsconfigPaths(),
   ],
   resolve: {
-     alias: {
-       "~": path.resolve(__dirname, "./app"),
-     },
-   },
+    alias: {
+      "~": path.resolve(__dirname, "./app"),
+    },
+  },
 });
