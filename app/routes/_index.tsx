@@ -543,24 +543,21 @@ export default function Index() {
             </p>
           </div>
 
-          <div>
+          <div className="flex flex-col">
             <h1 className="text-lg font-semibold">Services</h1>
-
             <Link to="#">2D Animation</Link>
-
             <Link to="#">3D Animation</Link>
-
             <Link to="#">Motion Graphic</Link>
           </div>
 
-          <div>
+          <div className="flex flex-col">
             <h1 className="text-lg font-semibold">About Us</h1>
             <Link to="#">Our Team</Link>
             <Link to="#">Portfolio</Link>
             <Link to="#">How It Works</Link>
           </div>
 
-          <div>
+          <div className="flex flex-col">
             <h1 className="text-lg font-semibold">Help</h1>
             <Link to="#">FAQ</Link>
           </div>
