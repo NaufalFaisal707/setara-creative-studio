@@ -91,13 +91,13 @@ export default function Index() {
         <div className="mx-auto flex max-w-screen-2xl justify-between p-4">
           <img
             className="block sm:hidden"
-            src="/logo_setara.svg"
+            src="logo_setara.svg"
             width={24}
             alt="Logo Setara"
           />
           <img
             className="hidden sm:block"
-            src="/logo_setara_&_text.svg"
+            src="logo_setara_&_text.svg"
             width={94}
             alt="Logo Setara"
           />
@@ -250,7 +250,7 @@ export default function Index() {
 
           <div className="grid grid-cols-2">
             <img
-              src="/story-ideas.jpg"
+              src="story-ideas.jpg"
               alt="story ideas"
               className="my-auto overflow-hidden rounded-3xl"
             />
@@ -294,7 +294,7 @@ export default function Index() {
           <div className="mx-auto grid max-w-4xl grid-cols-3 gap-4">
             <div className="flex flex-col justify-between rounded-xl border bg-[#FCFCF7] p-4 text-start">
               <img
-                src="/strategic-consulting.png"
+                src="strategic-consulting.png"
                 alt="strategic consulting"
                 className="mx-auto my-auto w-40"
               />
@@ -307,7 +307,7 @@ export default function Index() {
 
             <div className="flex flex-col justify-between rounded-xl border bg-[#FCFCF7] p-4 text-start">
               <img
-                src="/thinking-pana.png"
+                src="thinking-pana.png"
                 alt="storytelling"
                 className="mx-auto my-auto w-40"
               />
@@ -319,7 +319,7 @@ export default function Index() {
 
             <div className="flex flex-col justify-between rounded-xl border bg-[#FCFCF7] p-4 text-start">
               <img
-                src="/rb_6056.png"
+                src="rb_6056.png"
                 alt="visual stunning"
                 className="mx-auto my-auto w-40"
               />
@@ -331,7 +331,7 @@ export default function Index() {
 
             <div className="flex flex-col justify-between rounded-xl border bg-[#FCFCF7] p-4 text-start">
               <img
-                src="/map-pana.png"
+                src="map-pana.png"
                 alt="innovation and creativity"
                 className="mx-auto my-auto w-40"
               />
@@ -343,7 +343,7 @@ export default function Index() {
 
             <div className="flex flex-col justify-between rounded-xl border bg-[#FCFCF7] p-4 text-start">
               <img
-                src="/team-pana.png"
+                src="team-pana.png"
                 alt="collaboration"
                 className="mx-auto my-auto w-40"
               />
@@ -356,7 +356,7 @@ export default function Index() {
 
             <div className="flex flex-col justify-between rounded-xl border bg-[#FCFCF7] p-4 text-start">
               <img
-                src="/rb_7301.png"
+                src="rb_7301.png"
                 alt="client satisfaction"
                 className="mx-auto my-auto w-40"
               />
@@ -397,10 +397,10 @@ export default function Index() {
               Brilliant and Creative Team
             </h1>
             <div className="grid grid-cols-4 *:rounded-2xl">
-              <img src="/Team.jpg" alt="team-1" />
-              <img src="/Team-1.jpg" alt="team-2" />
-              <img src="/Team-2.jpg" alt="team-3" />
-              <img src="/Team-3.jpg" alt="team-4" />
+              <img src="Team.jpg" alt="team-1" />
+              <img src="Team-1.jpg" alt="team-2" />
+              <img src="Team-2.jpg" alt="team-3" />
+              <img src="Team-3.jpg" alt="team-4" />
             </div>
           </div>
         </div>
@@ -422,40 +422,40 @@ export default function Index() {
           <Carousel>
             <CarouselContent className="*:basis-1/3">
               <CarouselItem>
-                <img src="/carousel/carousel-1.jpg" alt="" />
+                <img src="carousel/carousel-1.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-2.jpg" alt="" />
+                <img src="carousel/carousel-2.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-3.jpg" alt="" />
+                <img src="carousel/carousel-3.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-4.jpg" alt="" />
+                <img src="carousel/carousel-4.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-5.jpg" alt="" />
+                <img src="carousel/carousel-5.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-6.jpg" alt="" />
+                <img src="carousel/carousel-6.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-7.jpg" alt="" />
+                <img src="carousel/carousel-7.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-8.jpg" alt="" />
+                <img src="carousel/carousel-8.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-9.jpg" alt="" />
+                <img src="carousel/carousel-9.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-10.jpg" alt="" />
+                <img src="carousel/carousel-10.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-11.jpg" alt="" />
+                <img src="carousel/carousel-11.jpg" alt="" />
               </CarouselItem>
               <CarouselItem>
-                <img src="/carousel/carousel-12.jpeg" alt="" />
+                <img src="carousel/carousel-12.jpeg" alt="" />
               </CarouselItem>
             </CarouselContent>
             <CarouselPrevious />
@@ -468,9 +468,9 @@ export default function Index() {
         <div className="mx-auto flex max-w-screen-xl flex-col gap-8 p-8">
           <h1 className="text-center text-4xl font-semibold">Review By You</h1>
           <div className="grid grid-cols-3">
-            <img src="/testimonial.png" alt="" />
-            <img src="/testimonial-1.png" alt="" />
-            <img src="/testimonial-2.png" alt="" />
+            <img src="testimonial.png" alt="" />
+            <img src="testimonial-1.png" alt="" />
+            <img src="testimonial-2.png" alt="" />
           </div>
         </div>
       </section>
@@ -535,7 +535,7 @@ export default function Index() {
       <footer className="bg-[#00A8A8]/30">
         <div className="mx-auto grid max-w-screen-xl grid-cols-5 gap-8 p-8">
           <div className="flex flex-col gap-4">
-            <img src="/logo_setara_&_text.svg" width={120} alt="Logo Setara" />
+            <img src="logo_setara_&_text.svg" width={120} alt="Logo Setara" />
             <h1 className="text-lg font-semibold">CREATI VITY & FANTASY</h1>
             <p>
               Jl. Kebon Sirih No.40 Lantai 1, Babakan Ciamis, Kec. Sumur
